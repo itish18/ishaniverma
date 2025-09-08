@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    padding-left: 150px;
+    padding-right: 150px;
+    background-color:beige ;
+}
+
+/* Navbar style */
+nav{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:brown ;
+}
+
+nav h1{
+    font-size: 30px;
+}
+
+nav div a{
+    margin-left: 50px;
+    color: rgb(190, 57, 57);
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Hero section content */
+.content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.bodycontent{
+    width: 50%;
+    padding-top: 100px;
+}
+
+.bodycontent h4{
+    color: purple;
+    text-transform: uppercase;
+}
+
+.bodycontent h1{
+    font-size: 60px;
+    color: blueviolet;
+}
+.bodycontent p{
+    width: 70%;
+    color: hotpink;
+}
+
+.bodycontent div{
+    margin-top: 10px;
+}
+
+.bodycontent div .firstbtn{
+    background-color: rgb(93, 102, 134);
+    padding: 5px 20px;
+    border: solid rgb(227, 132, 132);
+    border-radius: 5px;
+}
+
+.bodycontent div .secondbtn{
+    padding: 5px 20px;
+    border: 2px solid rgb(169, 169, 205);
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+
+.imagecontent{
+    width: 50%;
+    display: flex;
+    justify-content: end;
+}
+
+.imagecontent img{
+    width: 400px;
+    height: 450px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+/* Project section style */
+.projectContainer{
+    width: 100%;
+    /* vh - view port height */
+    height: 100vh;
+}
+
+.projectHeader{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.projectHeader h1{
+    font-size: 45px;
+    color: pink;
+}
+
+.projectHeader hr{
+    width: 100px;
+    height: 2px;
+    background-color: rgb(103, 88, 45);
+    border: none;
+    border-radius: 10px;
+}
+
+.projectCards{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.cardContainer{
+    width: 80%;
+    height: 400px;
+    background-color:rgb(170, 129, 129);
+    display: flex;
+    border-radius: 20px;
+}
+
+.cardContent{
+    width: 50%;
+    height: 100%;
+    margin-top: 60px;
+    margin-left: 30px;
+}
+
+.cardContent h1{
+    font-size: 30px;
+}
+
+.cardContent p{
+    height: 50%;
+    width: 85%;
+    margin: 12px 0;
+}
+
+.cardContent button{
+    background-color: rgb(192, 116, 116);
+    border: 2px solid rgb(166, 166, 198);
+    padding: 5px 20px;
+    border-radius: 20px;
+}
+
+.cardImage{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardImage img{
+    width: 95%;
+    height: 75%;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+/* Social media icons style */
+.social{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.socialContainer img{
+    width: 50px;
+    height: 50px;
+}
